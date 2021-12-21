@@ -5,5 +5,5 @@ Repositorio donde almaceno los distintos script python que automatizan o realiza
 
 
 
-##Traductor Automatico Python:
-Recibe un txt y lo devuelve traducido realizando multiples llamadas a el traductor de google, Actualmente preparado para los archivos .properties de Java
+## Traductor Automatico Python:
+Recibe un txt y lo devuelve traducido realizando multiples llamadas a el traductor de google. Actualmente preparado para los archivos .properties de Java
