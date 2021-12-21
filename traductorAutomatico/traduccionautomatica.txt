@@ -1,0 +1,10 @@
+label.th.cred.origen=Credit Origin
+label.permiso.envios.supervisados=Supervised Shipments
+label.permiso.administracion.exclusiones.entidad=Administration Exclusions Entity
+label.permiso.administracion.exclusiones.usuario=Administration Exclusions User
+label.permiso.envios.supervisados=Supervised Shipments
+error.switch=Exception when requesting to Switch
+error.credenciales=Invalid credentials for the web service
+error.credito=Channel credit expired
+error.tecnologia=The technology specified for shipping is not valid
+error.mensaje.no.encontrado=No reference to message found
