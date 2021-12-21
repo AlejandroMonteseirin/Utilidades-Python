@@ -2,10 +2,10 @@ from googletrans import Translator
 import time
 #pip3 install googletrans==3.1.0a0
 #https://py-googletrans.readthedocs.io/en/latest/
-def separar():
+def separar(archivoASeparar):
     valores=""
     keys=""
-    with open('texto.txt','r') as file:
+    with open(archivoASeparar,'r') as file:
         lines = file.read().split("\n")
     for line in lines:
         separado = line.split("=")
@@ -23,11 +23,11 @@ def separar():
     textfile.close()
 
 
-def juntar():
+def juntar(keys,values):
     resultado=""
     
-    with open('keys.txt','r') as file:
-        with open('pt.txt','r') as file2:
+    with open(keys,'r') as file:
+        with open(values,'r') as file2:
 
             keys = file.read().split("\n")
             valores = file2.read().split("\n")
@@ -79,5 +79,7 @@ def traducir(tipoTexto,origen,resultado):
 
 
 print("iniciando...\n")
+#separar('texto.txt')
+#juntar('keys.txt','pt.txt')
 traducir("propierties","es","en")
 print("\n FIN")
